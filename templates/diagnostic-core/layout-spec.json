@@ -1,0 +1,118 @@
+{
+  "tokens": {
+    "sidebar": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 2.82,
+      "h": 5.625,
+      "bevel_size": 0.46
+    },
+    "footer_page": {
+      "x": 9.62,
+      "y": 5.13,
+      "w": 0.12,
+      "h": 0.16,
+      "fontSize": 9
+    },
+    "content_title": {
+      "x": 3.12,
+      "y": 0.82,
+      "w": 2.9,
+      "h": 0.34,
+      "fontSize": 16
+    },
+    "underline": {
+      "gapY": 0.12,
+      "w": 1.9,
+      "h": 0.0,
+      "width": 1.5
+    }
+  },
+  "layouts": {
+    "Title Cover": {
+      "background": "paper",
+      "elements": {
+        "title": { "x": 2.2, "y": 1.05, "w": 5.7, "h": 1.7, "fontSize": 32, "align": "center" },
+        "subtitle": { "x": 1.25, "y": 3.05, "w": 7.55, "h": 0.38, "fontSize": 18, "align": "center" },
+        "date": { "x": 0.34, "y": 4.92, "w": 1.25, "h": 0.22, "fontSize": 14, "align": "left" }
+      }
+    },
+    "Agenda Vertical": {
+      "background": "paper",
+      "sidebar_fill": "sidebar_neutral",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.1, "h": 0.62, "fontSize": 20 },
+        "agenda_items": { "x": 3.12, "y": 1.15, "w": 3.2, "h": 2.8, "stepY": 0.55, "fontSize": 16 }
+      }
+    },
+    "Divider Sidebar": {
+      "background": "paper",
+      "sidebar_fill": "section_pink",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.1, "h": 0.78, "fontSize": 20 },
+        "title": { "x": 3.12, "y": 1.3, "w": 3.4, "h": 0.45, "fontSize": 20 },
+        "subtitle": { "x": 3.12, "y": 2.1, "w": 3.2, "h": 0.26, "fontSize": 11 }
+      }
+    },
+    "Conclusion Key Messages": {
+      "background": "paper",
+      "sidebar_fill": "section_green",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.1, "h": 0.78, "fontSize": 20 },
+        "messages": { "x": 3.12, "y": 1.25, "w": 5.6, "h": 3.1, "stepY": 0.72, "fontSize": 16 }
+      }
+    },
+    "Three-Column Synthesis": {
+      "background": "paper",
+      "sidebar_fill": "sidebar_neutral",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.12, "h": 0.9, "fontSize": 20 },
+        "columns": [
+          { "titleX": 3.12, "titleY": 0.78, "titleW": 1.9, "titleH": 0.5, "bodyX": 3.12, "bodyY": 1.52, "bodyW": 1.95, "bodyH": 3.2 },
+          { "titleX": 5.28, "titleY": 0.78, "titleW": 1.9, "titleH": 0.5, "bodyX": 5.28, "bodyY": 1.52, "bodyW": 1.95, "bodyH": 3.2 },
+          { "titleX": 7.45, "titleY": 0.78, "titleW": 1.9, "titleH": 0.5, "bodyX": 7.45, "bodyY": 1.52, "bodyW": 1.95, "bodyH": 3.2 }
+        ]
+      }
+    },
+    "Findings And Impacts": {
+      "background": "paper",
+      "sidebar_fill": "section_yellow",
+      "impact_fill": "section_yellow",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.12, "h": 0.9, "fontSize": 20 },
+        "left_text": { "x": 0.34, "y": 1.42, "w": 2.0, "h": 2.3, "fontSize": 10 },
+        "middle_title": { "x": 3.12, "y": 0.78, "w": 2.0, "h": 0.5, "fontSize": 14 },
+        "middle_body": { "x": 3.12, "y": 1.52, "w": 2.25, "h": 2.4, "fontSize": 10.5 },
+        "impact_box": { "x": 7.48, "y": 0.9, "w": 1.9, "h": 4.0, "bevel_size": 0.42 },
+        "impact_title": { "x": 7.62, "y": 1.16, "w": 1.5, "h": 0.3, "fontSize": 14 },
+        "impact_body": { "x": 7.62, "y": 1.82, "w": 1.45, "h": 2.3, "fontSize": 10.5 }
+      }
+    },
+    "Scope Approach Stakeholders": {
+      "background": "paper",
+      "sidebar_fill": "sidebar_neutral",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.12, "h": 0.9, "fontSize": 20 },
+        "sidebar_body": { "x": 0.34, "y": 1.42, "w": 1.95, "h": 2.7, "fontSize": 10.5 },
+        "columns": [
+          { "titleX": 3.12, "titleY": 0.96, "titleW": 1.8, "titleH": 0.5, "bodyX": 3.12, "bodyY": 1.62, "bodyW": 1.95, "bodyH": 2.3 },
+          { "titleX": 5.28, "titleY": 0.96, "titleW": 1.8, "titleH": 0.5, "bodyX": 5.28, "bodyY": 1.62, "bodyW": 1.95, "bodyH": 2.3 },
+          { "titleX": 7.45, "titleY": 0.96, "titleW": 1.8, "titleH": 0.5, "bodyX": 7.45, "bodyY": 1.62, "bodyW": 1.95, "bodyH": 2.7 }
+        ]
+      }
+    },
+    "Improvement Horizons": {
+      "background": "paper",
+      "sidebar_fill": "section_green",
+      "elements": {
+        "sidebar_title": { "x": 0.34, "y": 0.38, "w": 2.12, "h": 0.9, "fontSize": 20 },
+        "sidebar_body": { "x": 0.34, "y": 1.38, "w": 2.0, "h": 2.5, "fontSize": 10.5 },
+        "columns": [
+          { "titleX": 3.12, "titleY": 0.96, "titleW": 1.9, "titleH": 0.5, "bodyX": 3.12, "bodyY": 1.62, "bodyW": 1.9, "bodyH": 2.3 },
+          { "titleX": 5.28, "titleY": 0.96, "titleW": 1.9, "titleH": 0.5, "bodyX": 5.28, "bodyY": 1.62, "bodyW": 1.9, "bodyH": 2.3 },
+          { "titleX": 7.45, "titleY": 0.96, "titleW": 1.9, "titleH": 0.5, "bodyX": 7.45, "bodyY": 1.62, "bodyW": 1.9, "bodyH": 2.3 }
+        ]
+      }
+    }
+  }
+}

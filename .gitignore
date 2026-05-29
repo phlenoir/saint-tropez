@@ -1,0 +1,14 @@
+.venv/
+
+node_modules/
+
+__pycache__/
+*.pyc
+
+templates/*/output/
+*.pptx
+
+.DS_Store
+Thumbs.db
+
+.vscode/

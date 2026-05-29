@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "title": "Template diagnostic flash",
+    "subtitle": "Structure de restitution analytique",
+    "date": "Avril 2026"
+  },
+  "agenda": [
+    "Synthèse",
+    "Constats clés",
+    "Causes racines",
+    "Orientations"
+  ],
+  "agenda_title": "Sommaire",
+  "divider": {
+    "sidebar_title": "Synthèse",
+    "title": "Constats clés",
+    "subtitle": "Lecture transversale de la situation"
+  },
+  "three_column": {
+    "sidebar_title": "Synthèse des diagnostics",
+    "columns": [
+      {
+        "title": "Fonctionnalités manquantes",
+        "items": [
+          "Lorem ipsum dolor sit amet",
+          "Consectetur adipiscing elit",
+          "Sed do eiusmod tempor"
+        ]
+      },
+      {
+        "title": "Fonctionnalités défaillantes",
+        "items": [
+          "Incididunt ut labore et dolore",
+          "Magna aliqua ut enim ad minim",
+          "Veniam quis nostrud exercitation"
+        ]
+      },
+      {
+        "title": "Outils mal pensés",
+        "items": [
+          "Ullamco laboris nisi ut aliquip",
+          "Ex ea commodo consequat",
+          "Duis aute irure dolor"
+        ]
+      }
+    ]
+  },
+  "findings_impacts": {
+    "sidebar_title": "Exemple de diagnostic",
+    "left_text": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+    ],
+    "middle_title": "Saturation opérationnelle",
+    "middle_items": [
+      "Sous-dimensionnement des équipes",
+      "Multiplication des canaux",
+      "Catégorisation non industrialisée"
+    ],
+    "impact_title": "Conséquences",
+    "impact_items": [
+      "Le support n’absorbe plus le run",
+      "Priorisation subie",
+      "Backlog en croissance"
+    ]
+  },
+  "scope_approach_stakeholders": {
+    "sidebar_title": "Objectifs",
+    "sidebar_body": "Identifier / mettre en evidence les dysfonctionnements majeurs et les causes racines\n\nChallenger le plan de remédiation en cours\n\nProposer des quick wins activables rapidement\n\nProposer des axes d’amélioration structurants",
+    "scope_title": "Périmètre",
+    "approach_title": "Approche",
+    "stakeholders_title": "Parties prenantes",
+    "scope": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor"
+    ],
+    "approach": [
+      "Incididunt ut labore et dolore",
+      "Magna aliqua ut enim ad minim",
+      "Veniam quis nostrud exercitation"
+    ],
+    "stakeholders": [
+      "Ullamco laboris nisi ut aliquip",
+      "Ex ea commodo consequat",
+      "Duis aute irure dolor",
+      "In reprehenderit in voluptate"
+    ]
+  },
+  "horizons": {
+    "sidebar_title": "Axes d’amélioration structurants",
+    "sidebar_body": "Lorem ipsum dolor sit amet\n\n• Consectetur adipiscing elit\n• Sed do eiusmod tempor\n• Incididunt ut labore\n\nLorem ipsum dolor sit amet\n\n• Magna aliqua\n• Ut enim ad minim\n• Quis nostrud exercitation",
+    "short_term_title": "Court terme",
+    "mid_term_title": "Moyen terme",
+    "long_term_title": "Long terme",
+    "short_term": [
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor"
+    ],
+    "mid_term": [
+      "Incididunt ut labore et dolore",
+      "Magna aliqua ut enim ad minim",
+      "Veniam quis nostrud exercitation"
+    ],
+    "long_term": [
+      "Ullamco laboris nisi ut aliquip"
+    ]
+  },
+  "conclusion": {
+    "sidebar_title": "À retenir",
+    "messages": [
+      "La situation est critique mais réversible",
+      "Le backlog n’est qu’un symptôme",
+      "Les causes racines sont systémiques",
+      "La stabilisation doit précéder l’industrialisation"
+    ]
+  }
+}

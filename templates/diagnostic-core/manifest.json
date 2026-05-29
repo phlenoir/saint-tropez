@@ -1,0 +1,22 @@
+{
+  "template_name": "diagnostic-core",
+  "root_files": [
+    "build-template.js",
+    "demo-content.json",
+    "layout-spec.json",
+    "template-brief.md",
+    "template-data.json",
+    "manifest.json"
+  ],
+  "asset_directories": [
+    "assets"
+  ],
+  "generator_entry": "build-template.js",
+  "demo_content": "demo-content.json",
+  "layout_spec": "layout-spec.json",
+  "output_file": "output/diagnostic-core-demo.pptx",
+  "primary_brief": "template-brief.md",
+  "structured_data": "template-data.json",
+  "collected_assets": "assets/collected-assets.md",
+  "compatible_skill": "pptx"
+}

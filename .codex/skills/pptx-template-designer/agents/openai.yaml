@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPTX Template Designer"
+  short_description: "Design new PPTX template systems"
+  default_prompt: "Use $pptx-template-designer to create a new PowerPoint template that the pptx skill can reuse."

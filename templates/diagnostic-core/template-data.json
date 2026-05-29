@@ -1,0 +1,95 @@
+{
+  "name": "diagnostic-core",
+  "display_name": "Diagnostic Core",
+  "template_family": "diagnostic",
+  "variant_policy": {
+    "allow_in_place_updates": true,
+    "allow_variant_duplication": true,
+    "recommended_variant_suffix": "-v2"
+  },
+  "audience": "comite, audit, diagnostic, restitution structuree",
+  "use_case": "template generique de diagnostic et de restitution analytique",
+  "projection": true,
+  "layout": "LAYOUT_16x9",
+  "visual_strategy": "fond blanc, colonne laterale gauche, accent par section",
+  "density": "equilibree",
+  "tone": "sobre",
+  "palette": {
+    "ink": "26235C",
+    "sidebar_neutral": "D9DEE8",
+    "section_pink": "F3DADA",
+    "section_green": "CFF5D2",
+    "section_yellow": "FFE15A",
+    "paper": "FFFFFF",
+    "muted_text": "7A7A86"
+  },
+  "fonts": {
+    "title": "Segoe UI Black",
+    "body": "Aptos"
+  },
+  "motifs": {
+    "primary": "colonne laterale pleine avec coin coupe",
+    "content_mode": "100% texte structure",
+    "footer": "numero de slide uniquement",
+    "logo_policy": "aucun logo"
+  },
+  "logos": {
+    "required": false,
+    "placements": [],
+    "asset_paths": []
+  },
+  "mandatory_layouts": [
+    "Title Cover",
+    "Agenda Vertical",
+    "Divider Sidebar",
+    "Conclusion Key Messages"
+  ],
+  "layout_spec_file": "layout-spec.json",
+  "layouts": [
+    {
+      "name": "Title Cover",
+      "background": "light",
+      "placeholders": ["title", "subtitle", "date", "slide_number"]
+    },
+    {
+      "name": "Agenda Vertical",
+      "background": "light",
+      "placeholders": ["sidebar_title", "agenda_items", "slide_number"]
+    },
+    {
+      "name": "Divider Sidebar",
+      "background": "light",
+      "compatibility_with_title": {
+        "same_background_family": true,
+        "same_title_font_family": true,
+        "same_text_color_family": true
+      },
+      "placeholders": ["sidebar_title", "section_title", "section_subtitle", "slide_number"]
+    },
+    {
+      "name": "Conclusion Key Messages",
+      "background": "light",
+      "placeholders": ["sidebar_title", "message_cards", "slide_number"]
+    },
+    {
+      "name": "Three-Column Synthesis",
+      "background": "light",
+      "placeholders": ["sidebar_title", "column_1", "column_2", "column_3", "slide_number"]
+    },
+    {
+      "name": "Findings And Impacts",
+      "background": "light",
+      "placeholders": ["sidebar_title", "findings", "impacts", "slide_number"]
+    },
+    {
+      "name": "Scope Approach Stakeholders",
+      "background": "light",
+      "placeholders": ["sidebar_title", "scope", "approach", "stakeholders", "slide_number"]
+    },
+    {
+      "name": "Improvement Horizons",
+      "background": "light",
+      "placeholders": ["sidebar_title", "short_term", "mid_term", "long_term", "slide_number"]
+    }
+  ]
+}
